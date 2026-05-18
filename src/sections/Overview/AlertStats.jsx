@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Modal, Table, Button, Pagination, ConfigProvider, Image } from 'antd';
 import CustomDropdown from "../../components/Dropdowns/CustomDropdown";
-import CenterPopup from "../../components/Modals/CenterPopUp";
+import CenterPopup from "../../components/Modals/CenterPopup.tsx";
 import {
     Camera, UserX, CarFront, Fence,
     Wrench, EyeOff, Unplug, ZapOff,

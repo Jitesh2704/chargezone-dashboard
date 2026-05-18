@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Table, Button, Pagination, ConfigProvider } from "antd";
 import { Grid2x2, Car, Clock, Zap, AlertTriangle, X } from "lucide-react";
-import CenterPopup from "../../components/Modals/CenterPopUp";
+import CenterPopup from "../../components/Modals/CenterPopup.tsx";
 import CustomDropdown from "../../components/Dropdowns/CustomDropdown";
 
 // Common Table Component tailored for Tailwind
