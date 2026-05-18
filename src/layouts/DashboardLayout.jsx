@@ -272,7 +272,7 @@ const DashboardLayout = () => {
             >
               <button
                 title="Sign Out"
-                onClick={() => { }}
+                onClick={() => navigate("/login")}
                 className={`${collapsed ? "" : "mr-7"} inline-flex items-center justify-center gap-2 cursor-pointer text-[#FF5630] hover:text-[#e04826] transition-colors duration-200`}
               >
                 <svg
